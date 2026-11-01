@@ -1,10 +1,68 @@
+<a href="#selected-work">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+    <img width="100%" alt="Mohammed Shahim, full-stack and AI engineer. I build AI products and ship them to production. Animated diagram of Stayzy's booking agent: guest asks, agent, tools, human confirms, Stripe checkout." src="assets/hero-dark.svg">
+  </picture>
+</a>
 
-# 💻Tech Stack
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-# 📊GitHub Stats :
-![](https://github-readme-stats.vercel.app/api?username=mohammedshahim&theme=dark&hide_border=true&include_all_commits=false&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=mohammedshahim&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=mohammedshahim&theme=dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact)
+I build full-stack products with AI at the core, and I care about what happens after the demo: production deploys, payment flows, and agents that ask before they act.
 
----
-[![](https://visitcount.itsvg.in/api?id=mohammedshahim&icon=0&color=0)](https://visitcount.itsvg.in)
+**[See Stayzy live](https://stayzy.shahim.dev)** &nbsp;·&nbsp; **[Read the code](https://github.com/mohammedshahim/stayzy-ai-hotel-booking)** &nbsp;·&nbsp; **[Browse all repositories](https://github.com/mohammedshahim?tab=repositories)**
+
+## Selected work
+
+<a href="https://stayzy.shahim.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stayzy-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/stayzy-light.svg">
+    <img width="100%" alt="Stayzy, a hotel booking platform live in production, with smart search, AI summaries, a navigator chat widget and a booking chatbot. Screenshot of the site. Opens the live site." src="assets/stayzy-dark.svg">
+  </picture>
+</a>
+
+Four separately deployed apps: the guest site, an admin panel, the API and a Python agent service. The chatbot pauses for the guest's approval before it changes anything. [Live site](https://stayzy.shahim.dev) · [Source](https://github.com/mohammedshahim/stayzy-ai-hotel-booking)
+
+<a href="https://github.com/mohammedshahim/job-pilot">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/jobpilot-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/jobpilot-light.svg">
+    <img width="100%" alt="JobPilot, in build: an AI job hunting assistant that discovers jobs, scores them against your profile, researches each company, and lets you apply in one click." src="assets/jobpilot-dark.svg">
+  </picture>
+</a>
+
+<a href="https://github.com/mohammedshahim/ai-stay-vista-hotel-booking">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/vista-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/vista-light.svg">
+    <img width="100%" alt="AI Stay Vista: natural-language hotel search over embedded listings and reviews, with LangGraph workflows for search, property summaries and a travel assistant." src="assets/vista-dark.svg">
+  </picture>
+</a>
+
+## How I got here
+
+<a href="https://github.com/mohammedshahim?tab=repositories">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/timeline-light.svg">
+    <img width="100%" alt="Timeline. 2021: MERN apps and realtime chat. 2023: Docker, logging and hardening Node services. 2024: Next.js, access and refresh tokens, RTK Query. 2025: Kafka, Kubernetes, FastAPI and MCP servers. 2026: LangGraph, RAG, and Stayzy goes live in July." src="assets/timeline-dark.svg">
+  </picture>
+</a>
+
+## What I work with
+
+<a href="https://github.com/mohammedshahim?tab=repositories">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+    <img width="100%" alt="Tech stack. AI: LangGraph, LangChain, MCP, Pinecone, OpenRouter, LangSmith. Product: TypeScript, Next.js, React, React Native, Redux Toolkit, Tailwind CSS. Backend: Node and Express, FastAPI, PostgreSQL with PostGIS, MongoDB, Kafka, Socket.IO. Cloud: Docker, Kubernetes, AWS, Google Cloud, Vercel, Render." src="assets/stack-dark.svg">
+  </picture>
+</a>
+
+## From the lab
+
+| Project | What it explores |
+| :--- | :--- |
+| [rag-gigs](https://github.com/mohammedshahim/rag-gigs) | Retrieval-augmented generation with LangChain and Pinecone |
+| [LangGraph gigs](https://github.com/mohammedshahim/LangGrapg-gigs) | LangGraph agents with tool calling and Tavily web search |
+| [fastmcp-sample](https://github.com/mohammedshahim/fastmcp-sample) | MCP servers connected to a LangGraph client |
+| [fastapi-k8s-microservice](https://github.com/mohammedshahim/fastapi-k8s-microservice) | Four FastAPI services, each with a Dockerfile and Kubernetes manifest |

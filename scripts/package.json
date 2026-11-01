@@ -1,0 +1,12 @@
+{
+  "name": "profile-assets",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build-assets.mjs" },
+  "devDependencies": {
+    "@fontsource/instrument-serif": "^5.0.0",
+    "@fontsource/inter": "^5.0.0",
+    "@fontsource/jetbrains-mono": "^5.0.0",
+    "opentype.js": "^1.3.4"
+  }
+}
