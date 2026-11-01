@@ -191,15 +191,16 @@ const vista = (t) => projectCard(t, 'v', {
 function timeline(t) {
   const W = 1200, H = 272;
   const rows = [
+    ['2019', ['Started on the', 'web: HTML, CSS,', 'JavaScript']],
     ['2021', ['MERN apps and', 'realtime chat', 'with Socket.IO']],
     ['2023', ['Docker, logging', 'and hardening', 'Node services']],
-    ['2024', ['Next.js, access', 'and refresh tokens,', 'RTK Query']],
-    ['2025', ['Kafka, Kubernetes,', 'FastAPI and', 'MCP servers']],
-    ['2026', ['LangGraph, RAG,', 'and Stayzy goes', 'live in July']],
+    ['2024', ['Next.js, token', 'auth and RTK', 'Query']],
+    ['2025', ['Kafka, K8s,', 'FastAPI and', 'MCP servers']],
+    ['2026', ['LangGraph, RAG,', 'Stayzy goes', 'live in July']],
   ];
   const colW = (W - 112) / rows.length;
   const y = 104;
-  const lastX = 56 + colW * 4 + 8;
+  const lastX = 56 + colW * (rows.length - 1) + 8;
   const css = BASE_CSS + `.draw{stroke-dasharray:100;animation:draw 9s ease-in-out infinite}@keyframes draw{0%{stroke-dashoffset:100}45%,100%{stroke-dashoffset:0}}`;
   const body = backdrop(W, H, t, 't', 1, 0.1) +
     `<path d="M64 ${y}H${W - 56}" stroke="${t.line}" stroke-width="2.5"/>` +
@@ -211,10 +212,10 @@ function timeline(t) {
         (last ? `<circle class="pulse" cx="${x + 8}" cy="${y}" r="18" fill="${t.accent}" fill-opacity=".28"/>` : '') +
         `<circle cx="${x + 8}" cy="${y}" r="9" fill="${last ? t.accent : t.bg}" stroke="${t.accent}" stroke-width="3"/>` +
         text(yr, x, y - 32, 50, last ? 'italic' : 'serif', last ? t.accent : t.ink) +
-        ls.map((l, j) => text(l, x, y + 56 + j * 30, 21, 'sans', last ? t.ink : t.muted)).join('') +
+        ls.map((l, j) => text(l, x, y + 56 + j * 30, 20, 'sans', last ? t.ink : t.muted)).join('') +
         `</g>`;
     }).join('');
-  return svg(W, H, 'Timeline. 2021: MERN apps and realtime chat. 2023: Docker, logging and hardening Node services. 2024: Next.js, access and refresh tokens, RTK Query. 2025: Kafka, Kubernetes, FastAPI and MCP servers. 2026: LangGraph, RAG, and Stayzy goes live in July.', css, body);
+  return svg(W, H, 'Timeline. 2019: Started on the web with HTML, CSS and JavaScript. 2021: MERN apps and realtime chat. 2023: Docker, logging and hardening Node services. 2024: Next.js, token auth and RTK Query. 2025: Kafka, Kubernetes, FastAPI and MCP servers. 2026: LangGraph, RAG, and Stayzy goes live in July.', css, body);
 }
 
 function stack(t) {

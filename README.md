@@ -44,7 +44,7 @@ Four separately deployed apps: the guest site, an admin panel, the API and a Pyt
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/timeline-light.svg">
-    <img width="100%" alt="Timeline. 2021: MERN apps and realtime chat. 2023: Docker, logging and hardening Node services. 2024: Next.js, access and refresh tokens, RTK Query. 2025: Kafka, Kubernetes, FastAPI and MCP servers. 2026: LangGraph, RAG, and Stayzy goes live in July." src="assets/timeline-dark.svg">
+    <img width="100%" alt="Timeline. 2019: Started on the web with HTML, CSS and JavaScript. 2021: MERN apps and realtime chat. 2023: Docker, logging and hardening Node services. 2024: Next.js, token auth and RTK Query. 2025: Kafka, Kubernetes, FastAPI and MCP servers. 2026: LangGraph, RAG, and Stayzy goes live in July." src="assets/timeline-dark.svg">
   </picture>
 </a>
 
